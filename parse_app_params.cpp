@@ -20,7 +20,8 @@ int main(int argc, char **argv)
 		{"o_with_param", 1, NULL, 'o'},
 		{"O_without_param", 0, NULL, 'O'},
 		{"v_without_param", 0, NULL, 'v'},
-		{"z_with_param", 1, NULL, 'z'}
+		{"z_with_param", 1, NULL, 'z'},
+        {0,0,0,0}
 	};
 
 	do{
