@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 		{"O_without_param", 0, NULL, 'O'},
 		{"v_without_param", 0, NULL, 'v'},
 		{"z_with_param", 1, NULL, 'z'},
-        {0,0,0,0}
+        {0,0,0,0} //essental!
 	};
 
 	do{
@@ -53,13 +53,5 @@ int main(int argc, char **argv)
 				break;
 		}
 	}while (next_opt != -1);
-
-/*    std::cout <<"writing params "  <<argc << "\n";
-
-	for (int i = 0; i < argc; ++i)
-    {
-        std::cout <<  argv[i] << "\n";
-	}
-*/
     return 0;
 }
